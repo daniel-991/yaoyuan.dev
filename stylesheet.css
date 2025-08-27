@@ -29,6 +29,11 @@ header h {
 header p {
   color: #aaa;
   font-style: italic;
+h {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f5f5f5;
+  margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
 
