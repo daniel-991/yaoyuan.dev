@@ -42,3 +42,16 @@
   30% { clip: rect(80px, 9999px, 110px, 0); }
   100% { clip: rect(0, 9999px, 0, 0); }
 }
+
+nav a:hover {
+  color: #fff;
+  text-shadow: 2px 0 #f0f, -2px 0 #0ff;
+  animation: flicker 0.3s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
