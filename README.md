@@ -1,2 +1,2 @@
-# yaoyuan.dev
+# danielyao.dev
 my website / blog
