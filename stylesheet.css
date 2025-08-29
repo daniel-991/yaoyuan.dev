@@ -1,8 +1,12 @@
 body {
-    background-image: url(".\yao.png"); /* Replace with the actual path to your image */
+    background-image: url("./yao.png"); /* Replace with the actual path to your image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-size: cover; /* Scales the image to cover the entire background area */
     background-position: center center; /* Centers the image horizontally and vertically */
     background-attachment: fixed; /* Keeps the background image fixed when scrolling */
     background-color: #000000; /* Fallback background color if image fails to load */
 }
+.white-text {
+  color: white;
+}
+
